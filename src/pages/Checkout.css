@@ -1,0 +1,90 @@
+.checkout-container {
+  padding: 2rem;
+  background: #fafafa;
+  min-height: 100vh;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.checkout-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.checkout-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.checkout-section {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+}
+
+.checkout-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.checkout-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.checkout-payments {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.checkout-payments label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
+
+.checkout-summary {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+
+.checkout-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.checkout-row.total {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.checkout-button {
+  width: 100%;
+  background: #ff2e00;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.checkout-button:hover {
+  background: #e62b00;
+}

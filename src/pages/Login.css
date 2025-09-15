@@ -1,0 +1,98 @@
+/* Container full screen estilo app */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #ff2e00, #ff5a36);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  padding: 1rem;
+}
+
+/* Logo superior */
+.login-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Card central */
+.login-card {
+  background: #fff;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+/* Título e subtítulo */
+.login-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.login-subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 0.6rem 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.login-input:focus {
+  border-color: #ff2e00;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255,46,0,0.2);
+}
+
+/* Botão */
+.login-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 1rem;
+  background: #ff2e00;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: #e62b00;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.login-link {
+  color: #ff2e00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}

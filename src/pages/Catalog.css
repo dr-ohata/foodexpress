@@ -1,0 +1,93 @@
+.catalog-container {
+  padding: 2rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+.catalog-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Grid de produtos */
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card de produto */
+.catalog-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.catalog-card:hover {
+  transform: translateY(-4px);
+}
+
+.catalog-img {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.catalog-info h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+  color: #222;
+}
+
+.catalog-desc {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.catalog-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ff2e00;
+  margin-bottom: 0.8rem;
+}
+
+/* Botão estilo iFood */
+.catalog-button {
+  width: 100%;
+  padding: 10px;
+  background: #ff2e00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.catalog-button:hover {
+  background: #e62b00;
+}
+
+/* Footer */
+.catalog-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.catalog-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff2e00;
+  text-decoration: none;
+}
+
+.catalog-link:hover {
+  text-decoration: underline;
+}
